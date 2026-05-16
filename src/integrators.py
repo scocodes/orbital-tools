@@ -1,4 +1,3 @@
-
 def rk4_step(fun, t, y, dt, **args):
 
     k1 = fun(t, y, args)
