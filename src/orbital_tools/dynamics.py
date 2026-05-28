@@ -2,8 +2,9 @@ import numpy as np
 
 class Dynamics:
      
-    def __init__(self, atmosphere=None):
+    def __init__(self, atmosphere=None, B=100):
          self.atm = atmosphere
+         self.B = 100
 
     def two_body_rhs(self, t, y):
             r = y[0:3]
