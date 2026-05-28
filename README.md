@@ -50,3 +50,7 @@ Atmospheric density model implementations.
 integrators.py
 
 Numerical integration routines including RK4 propagation.
+
+LICENSE:
+
+MIT
